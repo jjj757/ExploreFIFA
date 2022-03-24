@@ -375,6 +375,3 @@ FIFAvis <- FIFA21_clean
 write.csv(FIFAvis, file = '~/Desktop/CLEANFIFADATA.csv')
 
 
-aa<-FIFA21%>%
-  filter(grepl('Korea', nationality))%>%
-  count(nationality)
